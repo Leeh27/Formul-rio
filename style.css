@@ -1,0 +1,87 @@
+body {
+    font-family: 'Rowdies', sans-serif;
+    background-color: #98c7b0;
+  }
+  
+  .container {
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  h1 {
+    font-family: 'Inter', sans-serif;
+    font-size: 40px;
+    padding-bottom: 70px;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .name-container {
+    display: flex;
+    gap: 20px;
+  }
+  
+  .name,
+  .email,
+  .message {
+    margin-bottom: 20px;
+    flex: 1;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  input,
+  textarea {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+  }
+
+  textarea,
+  .mensagem {
+    width: 100%;
+    padding-bottom: 90px;
+    box-sizing: border-box;
+  }
+  
+  button {
+    padding: 10px;
+    background-color: #043870;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  .attribution {
+    font-family: 'Inter', sans-serif;
+    font-size: 15px;
+    line-height: 50%;
+    text-align: center;
+    margin-top: 50px;
+  }
+  .attribution a {
+    color:#0133fc;
+    font-size: 15px;
+    text-decoration: none;
+  }
+  .attribution a:hover {
+    color: #000;
+  }
+  
+  .message-error {
+    color: red;
+    font-size: 12px;
+  }
+  
